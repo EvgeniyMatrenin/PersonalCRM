@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e39394a-5ee0-4266-b4e1-52ece63c7369">
+  <producedTypes>
+    <objectType typeId="e2ff87e3-b578-4c6d-855f-a8fd9297d27e" valueTypeId="6f89b3cd-1937-4a91-b5de-89cb53a468e0"/>
+    <refType typeId="81e2218c-306c-4a2c-a91f-db0b11b3fbf2" valueTypeId="12a9b005-7ff6-4385-a595-6d2842d1bda0"/>
+    <selectionType typeId="bdc34ac4-ae76-432e-a4d0-84fe55df4ba1" valueTypeId="a9837399-5a3e-4974-bc92-21c6c6a9bc9f"/>
+    <listType typeId="12e891ea-9335-4e1c-a9f1-5cdb983fcf94" valueTypeId="8610c39a-e24e-4319-8b40-50926ecbff14"/>
+    <managerType typeId="8833da82-b55b-42c7-a2c2-b560e33ce594" valueTypeId="d9e03a4c-c009-4a47-aaf7-a7ffb8bf02d1"/>
+  </producedTypes>
+  <name>НазначенияАдресов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения адресов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НазначенияАдресов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НазначенияАдресов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="14e97b64-1f94-4cba-a8b3-8d641d1fd1ae">
+      <name>Домашний</name>
+      <description>Домашний</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="041b030d-642f-4abb-b6aa-a093e229dd05">
+      <name>Рабочий</name>
+      <description>Рабочий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

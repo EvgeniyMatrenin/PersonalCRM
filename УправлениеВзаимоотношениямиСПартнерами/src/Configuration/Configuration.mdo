@@ -33,5 +33,7 @@
   <catalogs>Catalog.ТипыСпособовСвязи</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <catalogs>Catalog.Города</catalogs>
+  <catalogs>Catalog.НазначенияАдресов</catalogs>
+  <catalogs>Catalog.ВидыЖизненныхСобытий</catalogs>
   <enums>Enum.ВидыПола</enums>
 </mdclass:Configuration>

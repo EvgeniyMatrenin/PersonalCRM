@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c714731-5dd0-471f-91ee-cf974be721fe">
+  <producedTypes>
+    <objectType typeId="bfca082a-eb5e-49a9-aa20-277c88a0b7b7" valueTypeId="3252eb4a-c9f8-44b1-8020-9499697fdc58"/>
+    <refType typeId="54823e9e-66dd-40f6-a787-bd13dbff4837" valueTypeId="10da0aae-1a3f-48e1-bc9f-334620570d97"/>
+    <selectionType typeId="43e7fd22-b32c-47ef-822b-41110410ec61" valueTypeId="be52ad6c-cd78-4591-8bc9-aa88fe897940"/>
+    <listType typeId="28f0f97e-5f66-4136-b0b4-ca9163a5b8ad" valueTypeId="038c13f8-2648-4fbe-b6ac-b8f4037d792e"/>
+    <managerType typeId="753789fe-3337-4a74-9f1b-35f2cb9d272e" valueTypeId="06f62cb9-154f-4d7c-8091-e5c7f2ba6271"/>
+  </producedTypes>
+  <name>ВидыЖизненныхСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды жизненных событий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЖизненныхСобытий.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыЖизненныхСобытий.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="49f79452-3e0a-4280-8394-f787951dafd2">
+      <name>РаботаИОбразование</name>
+      <description>Работа и образование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="20be0398-52ec-44b7-ba2b-00f7b62d529e">
+        <name>Работа</name>
+        <description>Работа</description>
+        <code xsi:type="core:StringValue">
+          <value>000000022</value>
+        </code>
+      </content>
+      <content id="d564e805-75b8-4e0f-8bf2-033035c8ff72">
+        <name>Пенсия</name>
+        <description>Пенсия</description>
+        <code xsi:type="core:StringValue">
+          <value>000000023</value>
+        </code>
+      </content>
+      <content id="e38e72f4-989c-4c2d-b7b0-24c07a7df3a5">
+        <name>Школа</name>
+        <description>Школа</description>
+        <code xsi:type="core:StringValue">
+          <value>000000024</value>
+        </code>
+      </content>
+      <content id="64ca781a-1d1a-48f8-93e5-ef23984b38aa">
+        <name>Институт</name>
+        <description>Институт</description>
+        <code xsi:type="core:StringValue">
+          <value>000000025</value>
+        </code>
+      </content>
+      <content id="39f39540-05e8-4d9e-8386-faf57a8269a0">
+        <name>ИзданиеКниги</name>
+        <description>Издание книги</description>
+        <code xsi:type="core:StringValue">
+          <value>000000026</value>
+        </code>
+      </content>
+      <content id="3c00ba1f-2626-4673-bae5-4686fa19f32a">
+        <name>Служба</name>
+        <description>Служба</description>
+        <code xsi:type="core:StringValue">
+          <value>000000027</value>
+        </code>
+      </content>
+      <content id="5c8ac68f-fa53-4a49-bc98-642445213a33">
+        <name>ВолонтерскаяРабота</name>
+        <description>Волонтерская работа</description>
+        <code xsi:type="core:StringValue">
+          <value>000000028</value>
+        </code>
+      </content>
+    </items>
+    <items id="50ad30c1-b3c3-4a18-8b9f-d575e3b75da3">
+      <name>СемьяИДрузья</name>
+      <description>Семья и друзья</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="759bfeec-7b5c-4e9a-8907-11c15e2d69dc">
+        <name>Дружба</name>
+        <description>Дружба</description>
+        <code xsi:type="core:StringValue">
+          <value>000000029</value>
+        </code>
+      </content>
+      <content id="826ab4ee-4360-4e6b-8aed-d8475ad5c61e">
+        <name>Обручение</name>
+        <description>Обручение</description>
+        <code xsi:type="core:StringValue">
+          <value>000000030</value>
+        </code>
+      </content>
+      <content id="54753c33-9369-4946-9107-42ada8440ab5">
+        <name>Свадьба</name>
+        <description>Свадьба</description>
+        <code xsi:type="core:StringValue">
+          <value>000000031</value>
+        </code>
+      </content>
+      <content id="c90a78df-6cd8-47c3-a075-e93724a08a23">
+        <name>Годовщина</name>
+        <description>Годовщина</description>
+        <code xsi:type="core:StringValue">
+          <value>000000032</value>
+        </code>
+      </content>
+      <content id="1c452d74-7a1e-4e47-8f7d-4742afd6f129">
+        <name>Беременность</name>
+        <description>Беременность</description>
+        <code xsi:type="core:StringValue">
+          <value>000000033</value>
+        </code>
+      </content>
+      <content id="3041ddb8-93a7-4f0b-b8ec-06a7340944e6">
+        <name>Ребенок</name>
+        <description>Ребенок</description>
+        <code xsi:type="core:StringValue">
+          <value>000000034</value>
+        </code>
+      </content>
+      <content id="b6515f93-7407-4aaa-bda9-f3aa758ce854">
+        <name>ДомашнееЖивотное</name>
+        <description>Домашнее животное</description>
+        <code xsi:type="core:StringValue">
+          <value>000000035</value>
+        </code>
+      </content>
+      <content id="56b27526-24c2-4979-bded-33d16a0c048b">
+        <name>Растование</name>
+        <description>Растование</description>
+        <code xsi:type="core:StringValue">
+          <value>000000036</value>
+        </code>
+      </content>
+      <content id="175292ee-3d63-468e-87da-56ced90b6eb5">
+        <name>Смерть</name>
+        <description>Смерть</description>
+        <code xsi:type="core:StringValue">
+          <value>000000037</value>
+        </code>
+      </content>
+    </items>
+    <items id="af51812c-5e0a-40dd-992f-75717ac8ba98">
+      <name>ДомИЖизнь</name>
+      <description>Дом и жизнь</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4ec37170-ab45-4b28-844e-94c97d2b902d">
+        <name>Переезд</name>
+        <description>Переезд</description>
+        <code xsi:type="core:StringValue">
+          <value>000000006</value>
+        </code>
+      </content>
+      <content id="94160db2-578f-4b41-afa4-4a51ff3b2bff">
+        <name>ПокупкаЖилья</name>
+        <description>Покупка жилья</description>
+        <code xsi:type="core:StringValue">
+          <value>000000007</value>
+        </code>
+      </content>
+      <content id="10c4300b-1bef-4df7-8c3d-949dd6d28689">
+        <name>ПродажаЖилья</name>
+        <description>Продажа жилья</description>
+        <code xsi:type="core:StringValue">
+          <value>000000008</value>
+        </code>
+      </content>
+    </items>
+    <items id="4417ff87-9066-42d6-b66f-0d358dff10c8">
+      <name>Здоровье</name>
+      <description>Здоровье</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="93449fb2-979e-4322-8225-d81d1dc21b14">
+        <name>Перелом</name>
+        <description>Перелом</description>
+        <code xsi:type="core:StringValue">
+          <value>000000009</value>
+        </code>
+      </content>
+      <content id="c5a9122b-2faf-46d0-b1a1-0b014218887a">
+        <name>НовоеЗаболевание</name>
+        <description>Новое заболевание</description>
+        <code xsi:type="core:StringValue">
+          <value>000000010</value>
+        </code>
+      </content>
+      <content id="5a314122-1332-408f-bdf3-d8d20319ff9e">
+        <name>ПоложилиВБольницу</name>
+        <description>Положили в больницу</description>
+        <code xsi:type="core:StringValue">
+          <value>000000011</value>
+        </code>
+      </content>
+      <content id="a605ed99-acd7-479e-949d-94d6afefd862">
+        <name>Выздоровел</name>
+        <description>Выздоровел(а)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000012</value>
+        </code>
+      </content>
+    </items>
+    <items id="9df63185-a73b-46d0-a588-603e073b845a">
+      <name>ПутешествияИИнтересы</name>
+      <description>Путешествия и интересы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="71d3c651-eca3-497a-9620-b0807ca4c120">
+        <name>ТатуИПирсинг</name>
+        <description>Тату и пирсинг</description>
+        <code xsi:type="core:StringValue">
+          <value>000000013</value>
+        </code>
+      </content>
+      <content id="ca9714e4-07e9-412a-b82b-b07cc5305538">
+        <name>Спорт</name>
+        <description>Спорт</description>
+        <code xsi:type="core:StringValue">
+          <value>000000014</value>
+        </code>
+      </content>
+      <content id="d129929d-70c7-4d57-af33-ae9ee94e0081">
+        <name>Хобби</name>
+        <description>Хобби</description>
+        <code xsi:type="core:StringValue">
+          <value>000000015</value>
+        </code>
+      </content>
+      <content id="0077a4fc-563b-4ded-bb41-59bd772e5dd6">
+        <name>МузыкальныйИнструмент</name>
+        <description>Музыкальный инструмент</description>
+        <code xsi:type="core:StringValue">
+          <value>000000016</value>
+        </code>
+      </content>
+      <content id="8dc2b86b-2754-44cd-b1fe-3f90a1944fe8">
+        <name>ИностранныйЯзык</name>
+        <description>Иностранный язык</description>
+        <code xsi:type="core:StringValue">
+          <value>000000017</value>
+        </code>
+      </content>
+      <content id="824c3ba3-9d89-4bd2-be8c-ada5d1e44dd2">
+        <name>Путешествие</name>
+        <description>Путешествие</description>
+        <code xsi:type="core:StringValue">
+          <value>000000018</value>
+        </code>
+      </content>
+      <content id="208a9424-785b-488b-930b-17ee4c061f64">
+        <name>ИзменениеМировозрения</name>
+        <description>Изменение мировозрения</description>
+        <code xsi:type="core:StringValue">
+          <value>000000019</value>
+        </code>
+      </content>
+      <content id="b47ad8ce-77c8-4020-a06a-ccafcbb1dc96">
+        <name>ПервоеСлово</name>
+        <description>Первое слово</description>
+        <code xsi:type="core:StringValue">
+          <value>000000020</value>
+        </code>
+      </content>
+      <content id="91524b24-f5ba-480c-a29e-3dc07012aa9d">
+        <name>ПервыйПоцелуй</name>
+        <description>Первый поцелуй</description>
+        <code xsi:type="core:StringValue">
+          <value>000000021</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

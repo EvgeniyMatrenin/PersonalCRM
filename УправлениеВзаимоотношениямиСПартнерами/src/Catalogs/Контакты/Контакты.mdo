@@ -161,10 +161,7 @@
       </synonym>
       <comment>Работа, дом, учеба, дача</comment>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
+        <types>CatalogRef.НазначенияАдресов</types>
       </type>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -204,6 +201,72 @@
         <stringQualifiers>
           <length>75</length>
         </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="dda0bc35-9443-459d-9461-9319c1382efe">
+    <producedTypes>
+      <objectType typeId="6e931b0a-1481-47c1-a10e-9c06180c1e5b" valueTypeId="73041f37-e200-45c2-9c60-69bfa327b9c2"/>
+      <rowType typeId="29724ecb-adc1-4d3f-bded-21c860edbaf5" valueTypeId="cc98394d-7b55-409e-8a69-f92635e9f856"/>
+    </producedTypes>
+    <name>ЖизненныеСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жизненные события</value>
+    </synonym>
+    <attributes uuid="56e9e94c-ffad-439d-85b2-fca5f14d7948">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f560f75a-9536-4728-84c8-6c45a4826c82">
+      <name>ЖизненноеСобытие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Жизненное событие</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыЖизненныхСобытий</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="860fbb01-5a00-4a2c-928d-e040198e49f9">
+      <name>Коротко</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коротко</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d65bbd13-b063-4ebd-8a81-5c968bf22f62">
+      <name>Подробно</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подробно</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
       </type>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
