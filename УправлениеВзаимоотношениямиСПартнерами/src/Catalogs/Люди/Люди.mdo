@@ -7,14 +7,14 @@
     <listType typeId="77d544b0-d338-4b50-8244-7b6335b6bcea" valueTypeId="83c8734d-62c3-496b-b0e1-65ed2fd1c1ed"/>
     <managerType typeId="89e4447e-12b7-404f-ba9e-5658a527f01d" valueTypeId="44927206-1a5e-4a42-bb34-285d42fa7bf7"/>
   </producedTypes>
-  <name>Контакты</name>
+  <name>Люди</name>
   <synonym>
     <key>ru</key>
-    <value>Контакты</value>
+    <value>Люди</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Контакты.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Контакты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Люди.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Люди.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -31,11 +31,11 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Контакт</value>
+    <value>Человек</value>
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Список контактов</value>
+    <value>Люди</value>
   </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -267,6 +267,41 @@
       <type>
         <types>String</types>
         <stringQualifiers/>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ebf80d43-94a5-4193-b328-a0fbd094549a">
+    <producedTypes>
+      <objectType typeId="c8531370-070e-4713-bc16-db4240a6f7c8" valueTypeId="4058d4a0-c0cd-48d6-ae7b-332145211a25"/>
+      <rowType typeId="93c58cf2-b13a-4278-b5dd-d91f6aa61f80" valueTypeId="ff3d23a3-de58-4643-a738-488f885ee97c"/>
+    </producedTypes>
+    <name>Семья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семья</value>
+    </synonym>
+    <attributes uuid="0ffd7ce9-4951-4335-be6f-c3921474c1ee">
+      <name>ВидРодства</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид родства</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыРодства</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="599d2a76-3e7b-463c-852c-0d3f71e0437d">
+      <name>СКемРодство</name>
+      <synonym>
+        <key>ru</key>
+        <value>С кем родство</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Люди</types>
       </type>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a45980f0-9bbf-4a22-96ef-68229af89275">
+  <producedTypes>
+    <objectType typeId="25f5304d-9543-4285-85d0-64d97aa66477" valueTypeId="3c549952-040e-4b35-bcc5-bd34892b65b3"/>
+    <refType typeId="c75f15b3-4af9-4de6-a74e-8cbe5e8b9ffd" valueTypeId="1f5b3f5c-2833-4e07-93c5-8cf3c51827d9"/>
+    <selectionType typeId="6e4cfc33-c080-4896-bef8-459d681d769c" valueTypeId="62b535c9-6801-4dbc-8e64-25af4903ee68"/>
+    <listType typeId="ae2f1ff3-b15d-4971-8be6-ccdb7d955789" valueTypeId="b4955238-4d8c-4edc-bb43-20250ab9fca3"/>
+    <managerType typeId="759e50d0-c31a-42e0-806c-baa5bd53fd8c" valueTypeId="6c02c152-b357-4519-9359-d5a794d2eff9"/>
+  </producedTypes>
+  <name>ВидыРодства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды родства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыРодства.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыРодства.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f4f5ff48-f78f-4985-81f8-37da2626d862">
+      <name>Брат</name>
+      <description>Брат</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="8ae6f907-3e3e-454f-bb3e-94e28ebba472">
+      <name>Дочь</name>
+      <description>Дочь</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

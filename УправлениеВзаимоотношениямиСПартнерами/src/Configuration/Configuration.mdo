@@ -29,11 +29,12 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <catalogs>Catalog.Контакты</catalogs>
+  <catalogs>Catalog.Люди</catalogs>
   <catalogs>Catalog.ТипыСпособовСвязи</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <catalogs>Catalog.Города</catalogs>
   <catalogs>Catalog.НазначенияАдресов</catalogs>
   <catalogs>Catalog.ВидыЖизненныхСобытий</catalogs>
+  <catalogs>Catalog.ВидыРодства</catalogs>
   <enums>Enum.ВидыПола</enums>
 </mdclass:Configuration>
