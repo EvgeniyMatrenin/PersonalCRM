@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47817fab-1d5d-43c2-ab3a-a79bf8d516af">
+  <producedTypes>
+    <objectType typeId="dae3a785-c2ac-4dd3-a3f6-f727e451a321" valueTypeId="e182efb7-2c0d-4ff6-83cd-991e1ec7b365"/>
+    <refType typeId="de96b98e-48ea-4743-b168-c10bf5877d63" valueTypeId="06743249-82fe-4fa3-95e5-abd8a4195c79"/>
+    <selectionType typeId="c475e69f-25b7-4a93-bc85-91d47ca7e276" valueTypeId="6a2dc498-5a5a-4745-a847-71d633950050"/>
+    <listType typeId="77d544b0-d338-4b50-8244-7b6335b6bcea" valueTypeId="83c8734d-62c3-496b-b0e1-65ed2fd1c1ed"/>
+    <managerType typeId="89e4447e-12b7-404f-ba9e-5658a527f01d" valueTypeId="44927206-1a5e-4a42-bb34-285d42fa7bf7"/>
+  </producedTypes>
+  <name>Контакты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контакты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контакты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контакты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ф.И.О.</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контакт</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список контактов</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="32f39ab3-54d9-46d6-a507-35264da86aac">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62735905-6c47-4082-9628-b45ab4a9eb3b">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c31b7bc7-979f-4377-8f77-73941fcd2acf">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff017d27-abd3-4155-afa0-2353474ce95e">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыПола</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b485817c-523c-4a6e-8f07-ba547060bac3">
+    <producedTypes>
+      <objectType typeId="2747d282-a8aa-425d-a69f-3d1bc6e99990" valueTypeId="8ebe6a05-67e2-44ab-8dc8-3d74a7f8ea04"/>
+      <rowType typeId="6ca0af68-5ece-4ac4-8dbf-e191d7605f8b" valueTypeId="344d081c-182b-4127-a2c2-75a4c28f3678"/>
+    </producedTypes>
+    <name>Контакты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакты</value>
+    </synonym>
+    <attributes uuid="cf312ca3-ce48-4ad5-a5ff-358069e7efcd">
+      <name>ТипКонтакта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип контакта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипыСпособовСвязи</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aba8891c-89a2-4db8-bbcc-60f237efc3e1">
+      <name>Содержание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Содержание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4873ef88-7270-4264-8d9e-2d83974a7512">
+    <producedTypes>
+      <objectType typeId="ef425848-eba0-4a48-a370-388db0e9b8d6" valueTypeId="6d3bd9f6-3985-4dd4-abd1-ca33978e68ba"/>
+      <rowType typeId="959cf22e-0df1-4db9-8fda-61ed5bdb041d" valueTypeId="4058f168-5dd4-4a65-a9df-2a120c20b9e2"/>
+    </producedTypes>
+    <name>Адреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адреса</value>
+    </synonym>
+    <attributes uuid="013256bd-dd45-4615-bcbe-fc40e326061e">
+      <name>Назначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Назначение</value>
+      </synonym>
+      <comment>Работа, дом, учеба, дача</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0178e59c-b173-4179-a700-4f53a4c1ec71">
+      <name>Страна</name>
+      <synonym>
+        <key>ru</key>
+        <value>Страна</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Страны</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="68c73877-a2da-4c6e-a2eb-22eccd019f31">
+      <name>Город</name>
+      <synonym>
+        <key>ru</key>
+        <value>Город</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Города</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="faaa6685-e78a-446f-ae49-6dfaff4efbd2">
+      <name>УлицаИДом</name>
+      <synonym>
+        <key>ru</key>
+        <value>Улица и дом</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>75</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a45453e9-5655-4f09-b725-a4d23354c021">
+  <producedTypes>
+    <objectType typeId="c5897069-1af0-43cc-a86b-6e0cdea3bc65" valueTypeId="77f697fc-defd-40fe-b6e9-19b1d4e9f9e6"/>
+    <refType typeId="9abd600d-d3e0-4bdc-96e1-88375c38ffbc" valueTypeId="c33055d4-789c-4d47-8b27-9768f69eaff4"/>
+    <selectionType typeId="eeede607-4772-49b5-8a29-56254ad60723" valueTypeId="3d7e489a-c3bd-4dc3-b2ac-fbc778f8b74e"/>
+    <listType typeId="ba3aa82d-99df-4868-91be-27598b7ca2e3" valueTypeId="627a1283-a0de-4770-8d54-41028f6ab8e3"/>
+    <managerType typeId="1bcc6e35-4a9f-428f-8dc8-bdaef0049cb5" valueTypeId="18f3d270-9edc-4c5a-98b8-60f59369ab66"/>
+  </producedTypes>
+  <name>ТипыСпособовСвязи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы способов связи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыСпособовСвязи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипыСпособовСвязи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

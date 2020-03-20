@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe82c6fa-a4ff-4809-83b1-14a93638f949">
+  <producedTypes>
+    <objectType typeId="875ccbbe-d862-4b57-917d-2c3f8e0c9185" valueTypeId="a229a542-fd27-4e9c-a612-bed8d8fd5caa"/>
+    <refType typeId="5872aba2-b55a-43f6-8452-cba18752fa70" valueTypeId="27e561b9-5d0b-480a-b5fd-fe2019e1a5a8"/>
+    <selectionType typeId="9a7f2e1f-39ee-4854-82b2-45b043a4c19e" valueTypeId="09f69f87-f7be-42c5-8414-63231e324a2d"/>
+    <listType typeId="61231165-04d0-4247-9c41-a2f62f3114d4" valueTypeId="2e3b58af-28ba-4524-8388-f06a15826930"/>
+    <managerType typeId="8416e5df-8c31-4da1-bb96-801628aa7943" valueTypeId="61c92fab-d981-44c0-ad36-db3725521e30"/>
+  </producedTypes>
+  <name>Страны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Страны.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Страны.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
