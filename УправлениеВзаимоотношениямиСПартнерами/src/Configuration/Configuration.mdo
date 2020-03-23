@@ -36,5 +36,14 @@
   <catalogs>Catalog.НазначенияАдресов</catalogs>
   <catalogs>Catalog.ВидыЖизненныхСобытий</catalogs>
   <catalogs>Catalog.ВидыРодства</catalogs>
+  <catalogs>Catalog.ВидыЖивотных</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Блюда</catalogs>
+  <catalogs>Catalog.РолиВГруппе</catalogs>
+  <catalogs>Catalog.ВидыПривычекИОсобенностей</catalogs>
+  <catalogs>Catalog.СтепениВыраженности</catalogs>
   <enums>Enum.ВидыПола</enums>
+  <enums>Enum.ПодарилИлиПолучил</enums>
+  <enums>Enum.ЛюбитИлиНеЛюбит</enums>
 </mdclass:Configuration>

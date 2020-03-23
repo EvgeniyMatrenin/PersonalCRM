@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68ca4fa6-416d-4d78-b934-5932b35d3d65">
+  <producedTypes>
+    <objectType typeId="7eb2fdb9-26ba-444b-a23a-b275a0be3b28" valueTypeId="27a592e8-1036-4050-a0ba-48127af510f2"/>
+    <refType typeId="3c5e0e35-d84d-43d2-b2f0-c0e977033379" valueTypeId="a71c5295-4e8d-4e8a-8dc2-beb09de7532c"/>
+    <selectionType typeId="37a44c8b-a446-40cd-9eb6-31635100443c" valueTypeId="08617ead-f28e-48a8-b050-871c458e6957"/>
+    <listType typeId="5a60522b-7449-48f1-93b4-55701d2026e3" valueTypeId="b500a958-d474-452f-8196-c51a8ba9676f"/>
+    <managerType typeId="223c4665-39d5-4fab-9ec0-08d4309423db" valueTypeId="4a26b7f8-07d4-4e8f-b634-a86e1f5c4356"/>
+  </producedTypes>
+  <name>Блюда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блюда</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Блюда.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Блюда.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

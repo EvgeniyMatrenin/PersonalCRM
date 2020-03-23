@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d488e6e2-f2d4-45ac-babb-8d1613b7d44b">
+  <producedTypes>
+    <objectType typeId="369f2d8e-0c86-449f-96c2-0b34b6631055" valueTypeId="3ed52985-3483-4eae-a3dc-8d35b8cd2f99"/>
+    <refType typeId="a8cdc267-552e-4ab3-9c51-3ac9f452999b" valueTypeId="e9170b11-4353-496f-a65e-72cd7b7b2adc"/>
+    <selectionType typeId="53ed9e37-b7a5-4573-8829-a343a9a90d66" valueTypeId="424089af-419c-43ee-bb45-88bffd57089a"/>
+    <listType typeId="a0c5485f-59ef-4093-b24b-7f83bd2fe33f" valueTypeId="66afe075-3b8e-48b6-ab5a-036818ac4cbe"/>
+    <managerType typeId="724fde01-5f59-4d3c-9f36-013da67928c2" valueTypeId="3c367328-a583-4df2-81d1-7f171ee7a7cc"/>
+  </producedTypes>
+  <name>СтепениВыраженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Степени выраженности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтепениВыраженности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтепениВыраженности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9bfc517a-b674-4480-b269-9394496be5ea">
+      <name>Нет</name>
+      <description>Нет</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="02125e23-ab04-4dd6-a0c4-55679563ebdc">
+      <name>Минимальное</name>
+      <description>Минимальное</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="8e081a86-3bd5-43d7-9319-d2d9695d1411">
+      <name>Среднее</name>
+      <description>Среднее</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="6dabdf23-111c-43c0-bf8f-dc6a08a07199">
+      <name>Высокое</name>
+      <description>Высокое</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="34629d38-81be-46f3-b070-665f4e53d165">
+      <name>Максимальное</name>
+      <description>Максимальное</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

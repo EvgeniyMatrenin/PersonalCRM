@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2c2e05f-9558-45f9-8c86-5a486ebe6f34">
+  <producedTypes>
+    <refType typeId="e3143023-5087-4564-8f97-58a9e4533d84" valueTypeId="78bf8e5d-2aa2-45c9-8e8b-e28bfe69ddfd"/>
+    <listType typeId="0beda3b7-b7fa-4ea5-bfc7-0a306ffeb091" valueTypeId="d1d044ea-e407-4531-81c8-71b328ee7109"/>
+    <managerType typeId="b12210ad-6e74-4d28-a636-8f35e3321e55" valueTypeId="f29a304e-3492-422d-ae82-818839bfd1cd"/>
+  </producedTypes>
+  <name>ЛюбитИлиНеЛюбит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Любит или не любит</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0306a2fc-4207-4c7c-bcde-6f7120538623">
+    <name>Любит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Любит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1122b563-ed2e-4cab-8e03-aefb784ad86e">
+    <name>НеЛюбит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не любит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79abb8d0-879a-48fd-8706-a4846ada3ba6">
+    <name>Аллергия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аллергия</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

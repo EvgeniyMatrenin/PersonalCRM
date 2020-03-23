@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29d6c5ce-1bca-4c74-b2bd-9f2c5627c9be">
+  <producedTypes>
+    <refType typeId="45f00a95-68e6-4864-8e73-a4d89b38133f" valueTypeId="2d64ceea-4c1f-4556-95db-89fc957c6205"/>
+    <listType typeId="fec60395-3fc2-4e46-87e8-deb386d496c7" valueTypeId="a8f1dfed-e9e0-4341-bfb6-15d5251c8826"/>
+    <managerType typeId="e63627ec-88ea-4dd7-951f-e307702f143d" valueTypeId="1fee89fd-be47-4f97-b74d-da06076ee0e7"/>
+  </producedTypes>
+  <name>ПодарилИлиПолучил</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подарил или получил</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d770b968-9314-4763-bffd-c294911e33d5">
+    <name>Подарил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарил (а)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94004d5d-6ee2-4ac8-8726-9d27e3e0c155">
+    <name>Получил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получил (а)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d3b7b97-1f55-46c2-bef5-d9eefccd5196">
+  <producedTypes>
+    <objectType typeId="df9d987b-c1f3-4e36-b137-6bfa94dcab8c" valueTypeId="81c2bf3a-aff2-466a-b00e-4dd44f54d81b"/>
+    <refType typeId="36e3023f-3793-4629-a2d4-46fbd2208d46" valueTypeId="4e509263-d4ba-4cef-8565-cec69fae032c"/>
+    <selectionType typeId="fae1fd63-1c42-4c0a-bdc0-3825e21b1851" valueTypeId="0f130bb1-8d54-4d9b-a4d4-f1789d9116d1"/>
+    <listType typeId="3d07df39-e2eb-4f96-9a54-2c957e8ee8dd" valueTypeId="d2ee13f7-cbc4-44d2-b764-7a5e397a3fee"/>
+    <managerType typeId="66f46a5b-ca3e-4a7e-9c08-7dea222c1ad6" valueTypeId="ddee92b8-93aa-4f0a-bd7b-7359540797a6"/>
+  </producedTypes>
+  <name>ВидыПривычекИОсобенностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды привычек и особенностей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыПривычекИОсобенностей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыПривычекИОсобенностей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="36e80728-b9c7-4290-a1a1-c2e2dcef4683">
+      <name>Курение</name>
+      <description>Курение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="7eb58040-9616-4eb2-95cc-ba4b51bf5359">
+      <name>Алкоголь</name>
+      <description>Алкоголь</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="0e09882f-0b23-4122-8ef6-b524481b9e4a">
+      <name>Честность</name>
+      <description>Честность</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="1c6fe9ab-b315-4562-a74e-06ae3a6d4838">
+      <name>ПрогулкиПешком</name>
+      <description>Прогулки пешком</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="3cdc719e-d9dd-48ce-a16f-cc46e552e370">
+      <name>Путишествия</name>
+      <description>Путишествия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="5712d74a-9e5f-40de-9acd-52f6797697d3">
+      <name>Самолюбие</name>
+      <description>Самолюбие</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="d317d30d-b542-4792-81f5-c2ddc55ee638">
+      <name>Оптимизм</name>
+      <description>Оптимизм</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

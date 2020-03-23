@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3a8964d-7e62-46fa-8047-45f046625349">
+  <producedTypes>
+    <objectType typeId="da13c4b9-9a72-4d6c-b714-01773912e9e8" valueTypeId="5ecafc29-893e-48dd-92c7-03953e7ffa9b"/>
+    <refType typeId="ce6fabc5-9a39-46a3-ad73-d45168b4b222" valueTypeId="eb1234ad-6177-4aec-8a71-299ca4cc72d8"/>
+    <selectionType typeId="48e94c7e-933d-4b22-a7de-e0eae9df2ec9" valueTypeId="88a1e08f-c56e-44dd-9ec1-2c33c643bae4"/>
+    <listType typeId="7aa6933c-27e3-4f98-945a-9aa987d16c17" valueTypeId="b34a2766-d9db-4ef3-a003-62dbfe3912b0"/>
+    <managerType typeId="a572ccb8-f1c8-4eb0-b56d-d0994fcb1daa" valueTypeId="27054ab2-23f9-4f03-bf47-fa27ea181b50"/>
+  </producedTypes>
+  <name>РолиВГруппе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли в группе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РолиВГруппе.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РолиВГруппе.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

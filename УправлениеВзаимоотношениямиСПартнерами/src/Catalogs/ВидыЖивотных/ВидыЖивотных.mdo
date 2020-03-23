@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="735b4ca9-7fb9-4d3a-8ac9-da570450868e">
+  <producedTypes>
+    <objectType typeId="6d337a60-2c7e-4147-b12d-dca08c9200ef" valueTypeId="731984e9-db4a-4d29-bef6-b3fdf152f3ff"/>
+    <refType typeId="951d4be3-04c5-4af4-8947-a11aaccf1edc" valueTypeId="5906a109-5774-4b71-9b85-7ea84caf7813"/>
+    <selectionType typeId="be3825d3-7ecd-49ab-b369-3eb1b21efdb7" valueTypeId="4649fbc5-ec68-429e-9509-638395502a55"/>
+    <listType typeId="94e3c3d6-8fb1-43e3-84de-a2b61df0adfb" valueTypeId="1aac1e5b-dcfd-4f98-981c-aae812238eb2"/>
+    <managerType typeId="73e6e3d9-0e3f-4a83-a0d2-151c6e4cc7f7" valueTypeId="c0c11598-53b6-4528-a4e9-ad9d4ae873db"/>
+  </producedTypes>
+  <name>ВидыЖивотных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды животных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЖивотных.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыЖивотных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="cbaabc86-a9ad-46cc-8448-5cd053721b85">
+      <name>Собака</name>
+      <description>Собака</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="290ebc37-1945-4930-9fff-3204001875b5">
+      <name>Кошка</name>
+      <description>Кошка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="5679060a-e43f-4f1c-9388-39c4664bc0cc">
+      <name>Хомяк</name>
+      <description>Хомяк</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
