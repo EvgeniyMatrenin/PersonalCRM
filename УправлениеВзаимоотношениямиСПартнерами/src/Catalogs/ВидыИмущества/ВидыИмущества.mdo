@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="318f6d88-5560-4537-927e-b5f3ae5face8">
+  <producedTypes>
+    <objectType typeId="96c089fc-3505-49bb-8ef4-fc08bbafa58d" valueTypeId="3af47011-5ee2-4095-85bf-335629cc2505"/>
+    <refType typeId="aad9a222-f23b-4d37-a439-30096a73fb06" valueTypeId="2a2789a9-7f13-4e31-8728-2cdb286ac932"/>
+    <selectionType typeId="41f96579-9816-4ae4-b0c4-7076b5fc6e49" valueTypeId="edf33274-0162-4b4f-a090-466a6743898f"/>
+    <listType typeId="328bdc9f-dd3f-4f6b-9c2c-457050e59592" valueTypeId="53a45b57-42f1-48f8-94de-e983c4d99199"/>
+    <managerType typeId="e4857d8c-5fca-458d-aa3e-ce3353d8a263" valueTypeId="805cc839-c540-4f9c-8831-6ff388dac574"/>
+  </producedTypes>
+  <name>ВидыИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды имущества</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыИмущества.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыИмущества.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="dc360ced-c4df-470e-952c-057544919d44">
+      <name>Квартира</name>
+      <description>Квартира</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="c630024a-59d3-420f-b55e-14324d28f2ba">
+      <name>Машина</name>
+      <description>Машина</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="7741c059-b3c1-45c0-a05a-87830095c2ea">
+      <name>Дача</name>
+      <description>Дача</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="81427e0d-b339-43f3-ae6e-58c0018300d6">
+      <name>Дом</name>
+      <description>Дом</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

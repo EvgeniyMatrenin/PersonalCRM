@@ -29,6 +29,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Люди</subsystems>
+  <roles>Role.ПолныеПрава</roles>
   <catalogs>Catalog.Люди</catalogs>
   <catalogs>Catalog.ТипыСпособовСвязи</catalogs>
   <catalogs>Catalog.Страны</catalogs>
@@ -43,6 +45,7 @@
   <catalogs>Catalog.РолиВГруппе</catalogs>
   <catalogs>Catalog.ВидыПривычекИОсобенностей</catalogs>
   <catalogs>Catalog.СтепениВыраженности</catalogs>
+  <catalogs>Catalog.ВидыИмущества</catalogs>
   <enums>Enum.ВидыПола</enums>
   <enums>Enum.ПодарилИлиПолучил</enums>
   <enums>Enum.ЛюбитИлиНеЛюбит</enums>

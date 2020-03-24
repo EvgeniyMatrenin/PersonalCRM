@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2f75950-568e-489c-845e-c354a46ae28f">
+  <name>Люди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Люди</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Люди</content>
+  <content>Role.ПолныеПрава</content>
+</mdclass:Subsystem>

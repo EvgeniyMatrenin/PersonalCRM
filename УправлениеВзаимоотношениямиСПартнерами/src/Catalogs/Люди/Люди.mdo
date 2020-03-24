@@ -37,6 +37,7 @@
     <key>ru</key>
     <value>Люди</value>
   </listPresentation>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -570,6 +571,44 @@
       <synonym>
         <key>ru</key>
         <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="30ecaefd-b608-4a92-919e-7473fe048d5e">
+    <producedTypes>
+      <objectType typeId="b369f410-b989-4bb1-9e02-6c15db3fb83d" valueTypeId="82738ddf-425b-4120-908d-467a047f554a"/>
+      <rowType typeId="e5a5a47d-de8d-43f5-975b-a6665c5c96e3" valueTypeId="4a1d6f8d-2006-462d-9736-e0f63135ee42"/>
+    </producedTypes>
+    <name>Имущество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имущество</value>
+    </synonym>
+    <attributes uuid="8a153511-91c1-46da-a966-e8ead04b35be">
+      <name>ВидИмущества</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид имущества</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИмущества</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5da58faa-57aa-4907-9b91-7c7b03ff387b">
+      <name>Уточнение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Уточнение</value>
       </synonym>
       <type>
         <types>String</types>
