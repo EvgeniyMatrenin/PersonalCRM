@@ -49,4 +49,5 @@
   <enums>Enum.ВидыПола</enums>
   <enums>Enum.ПодарилИлиПолучил</enums>
   <enums>Enum.ЛюбитИлиНеЛюбит</enums>
+  <informationRegisters>InformationRegister.СопоставлениеВидовРодства</informationRegisters>
 </mdclass:Configuration>

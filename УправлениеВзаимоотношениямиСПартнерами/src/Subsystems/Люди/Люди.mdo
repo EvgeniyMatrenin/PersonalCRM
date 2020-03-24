@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Люди</content>
   <content>Role.ПолныеПрава</content>
+  <subsystems>НСИ</subsystems>
 </mdclass:Subsystem>

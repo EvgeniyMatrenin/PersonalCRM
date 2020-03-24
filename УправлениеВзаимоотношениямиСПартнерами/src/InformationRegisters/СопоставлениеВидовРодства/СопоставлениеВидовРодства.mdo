@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="113c5096-dbcb-4ce0-a8e9-1415868dd596">
+  <producedTypes>
+    <selectionType typeId="9e6c8941-019f-4ccc-8d6b-525bb2843ba0" valueTypeId="bf7250b2-5b39-4380-a65c-1fdc92fd8eba"/>
+    <listType typeId="f0665e42-0e3a-4d61-a44a-4c8e45c05fd4" valueTypeId="1b2a9082-837f-4d11-874f-85a5675d5563"/>
+    <managerType typeId="a82d2f8a-47ca-4871-beb0-035cec91819d" valueTypeId="37dc61b1-1b8e-4050-a8ff-9584791b2bdd"/>
+    <recordSetType typeId="e8735535-e801-460e-ab10-faf83b13fd4e" valueTypeId="1f8a4854-f1b1-4458-9e56-1d6b257f0908"/>
+    <recordKeyType typeId="9342e430-3e92-4536-a901-413371bf866c" valueTypeId="f34021ba-056a-41f8-86b9-65e01dda6e24"/>
+    <recordType typeId="cf54b3a6-a2a3-4f25-9e66-374823b24547" valueTypeId="937a7d69-1c1e-4f77-9adc-6132db2e4652"/>
+    <recordManagerType typeId="78017d87-5e57-42f7-b4df-0ac3c1e6f171" valueTypeId="9db32ab4-101d-43fe-8b0b-b500fa468156"/>
+  </producedTypes>
+  <name>СопоставлениеВидовРодства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление видов родства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="362a86ed-be08-45f9-8d0a-6789199b3691">
+    <name>ВидРодстваИскомыйЖенский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид родства искомый женский</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРодства</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="cec570be-c307-4868-b59f-3078eb20a1b4">
+    <name>ВидРодстваИскомыйМужской</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид родства искомый мужской</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРодства</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="1fc27de0-8f38-42f5-8086-162be0664d65">
+    <name>ВидРодстваИзвестный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид родства известный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРодства</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
