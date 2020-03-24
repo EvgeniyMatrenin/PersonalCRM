@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="333a687c-c1ff-4693-be2d-b4d4b6dfa14a">
+  <producedTypes>
+    <objectType typeId="2a53885e-6f3e-4ee1-b166-48b158f009cc" valueTypeId="d831d41f-df55-48a3-8876-cdd3fabb2448"/>
+    <refType typeId="de3f4506-c7e5-4eb6-b65d-e7535dba8ab8" valueTypeId="06ef1471-f085-4f00-834f-d7ee0e978a5f"/>
+    <selectionType typeId="c99f53e1-399f-4e46-b6f4-ecbd57c1f38c" valueTypeId="d1e8abb0-42bc-4f0d-b857-7f4e5129ed76"/>
+    <listType typeId="fcf70796-742f-4fe8-9852-bef3a3897452" valueTypeId="754b25cc-4180-49ea-926a-f7a73fed6994"/>
+    <managerType typeId="9492ffc1-222d-4296-99cd-d207cd497cc7" valueTypeId="dd3085d0-6d07-49e8-ae1d-8c8a71a1e791"/>
+  </producedTypes>
+  <name>Рождение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рождение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Рождение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e534dd81-305d-4c6a-85bf-2987dc672976">
+    <name>Мама</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мама</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74577e68-4ba3-43fd-8c69-a47c27ff13e1">
+    <name>Папа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0e9f52a-78e1-4956-a97e-0361324ae858">
+    <name>Ребенок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ребенок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

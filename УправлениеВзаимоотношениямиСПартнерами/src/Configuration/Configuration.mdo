@@ -46,6 +46,10 @@
   <catalogs>Catalog.ВидыПривычекИОсобенностей</catalogs>
   <catalogs>Catalog.СтепениВыраженности</catalogs>
   <catalogs>Catalog.ВидыИмущества</catalogs>
+  <documents>Document.Свадьба</documents>
+  <documents>Document.Развод</documents>
+  <documents>Document.Рождение</documents>
+  <documents>Document.Смерть</documents>
   <enums>Enum.ВидыПола</enums>
   <enums>Enum.ПодарилИлиПолучил</enums>
   <enums>Enum.ЛюбитИлиНеЛюбит</enums>

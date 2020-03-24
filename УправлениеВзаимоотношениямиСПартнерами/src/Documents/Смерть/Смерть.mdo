@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb146f20-d605-4aaa-a5d7-d3276d425be4">
+  <producedTypes>
+    <objectType typeId="4bdafb2e-3dd7-4c9b-8223-45cb292fa110" valueTypeId="bb3b699f-88b3-4577-88b9-a1eed5338c24"/>
+    <refType typeId="5c23d093-85ea-4dd9-a590-0c8c0b80f70d" valueTypeId="b1b3602e-1639-41e9-bf0a-059a7faa7111"/>
+    <selectionType typeId="a5c50bc4-2382-4533-8100-4dd9b1828fba" valueTypeId="86bdc44a-6165-4087-a27e-12b056cb6087"/>
+    <listType typeId="533a4c7d-21d3-4e3e-beae-8dad6b2260e3" valueTypeId="b0934c03-fe6d-47b8-ac79-0de8e24811fe"/>
+    <managerType typeId="c41c64b8-4fdb-4dd4-a9c1-bda2a591da25" valueTypeId="7051e00d-fb33-4d5d-a789-fa3f0c896bae"/>
+  </producedTypes>
+  <name>Смерть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смерть</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Смерть.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3efc2586-fd15-4bb0-b3f8-a15fced60943">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ф.И.О.</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c4fd166-7cb6-4948-a730-6dd5584b9b34">
+    <name>Подробности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
