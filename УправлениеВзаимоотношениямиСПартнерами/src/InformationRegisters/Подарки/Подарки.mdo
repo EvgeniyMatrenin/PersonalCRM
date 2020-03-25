@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0bf10d1-3ac4-4fb6-ae85-bd3f0ca9d952">
+  <producedTypes>
+    <selectionType typeId="1657e700-dbff-433c-9bbe-36fd46208937" valueTypeId="c6979582-ee67-4510-a2c0-30da13745894"/>
+    <listType typeId="fbcfc3ac-03ed-44fd-ac28-e00f2cf13e68" valueTypeId="be3a1529-deeb-4a55-bd2a-97c20a5a8b11"/>
+    <managerType typeId="ac15483d-42e6-4c73-bc32-193a186ab02c" valueTypeId="73e02128-c96b-463b-a932-3c720f9d9ff4"/>
+    <recordSetType typeId="fcbf6c2b-3cac-4d9a-895c-b292438fdf2c" valueTypeId="e0c55a86-cc57-4350-a774-ec216a16e88d"/>
+    <recordKeyType typeId="57bb3b3b-f33d-4059-b017-e6b72c408562" valueTypeId="c123330a-9e5a-45c0-b289-2c4a6585cf67"/>
+    <recordType typeId="1985d12e-5e1a-4610-92fe-329dd37d5023" valueTypeId="7455efb6-216b-4e12-afd0-a95b1900c572"/>
+    <recordManagerType typeId="9f40ec5f-0339-46e9-af44-6a669c405895" valueTypeId="408673c7-550b-4ea0-bb37-f53177d2c7cb"/>
+  </producedTypes>
+  <name>Подарки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подарки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="33b6873f-d5e3-4fd1-a7d7-3c3b17d425b4">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="3eb58b43-3676-4b3c-b00b-a265adb65d0c">
+    <name>Подарок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="2c140d7a-4f49-4b7c-b3e5-27727a17b776">
+    <name>Даритель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Даритель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

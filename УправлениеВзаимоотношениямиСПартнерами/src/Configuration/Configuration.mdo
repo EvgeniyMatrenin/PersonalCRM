@@ -57,4 +57,5 @@
   <enums>Enum.ЛюбитИлиНеЛюбит</enums>
   <enums>Enum.ПоявилосьИлиИсчезло</enums>
   <informationRegisters>InformationRegister.СопоставлениеВидовРодства</informationRegisters>
+  <informationRegisters>InformationRegister.Подарки</informationRegisters>
 </mdclass:Configuration>

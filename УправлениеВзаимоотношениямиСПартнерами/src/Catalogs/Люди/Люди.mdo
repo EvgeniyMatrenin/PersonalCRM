@@ -268,41 +268,6 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="ebf80d43-94a5-4193-b328-a0fbd094549a">
-    <producedTypes>
-      <objectType typeId="c8531370-070e-4713-bc16-db4240a6f7c8" valueTypeId="4058d4a0-c0cd-48d6-ae7b-332145211a25"/>
-      <rowType typeId="93c58cf2-b13a-4278-b5dd-d91f6aa61f80" valueTypeId="ff3d23a3-de58-4643-a738-488f885ee97c"/>
-    </producedTypes>
-    <name>Семья</name>
-    <synonym>
-      <key>ru</key>
-      <value>Семья</value>
-    </synonym>
-    <attributes uuid="0ffd7ce9-4951-4335-be6f-c3921474c1ee">
-      <name>ВидРодства</name>
-      <synonym>
-        <key>ru</key>
-        <value>Вид родства</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВидыРодства</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="599d2a76-3e7b-463c-852c-0d3f71e0437d">
-      <name>СКемРодство</name>
-      <synonym>
-        <key>ru</key>
-        <value>С кем родство</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Люди</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
   <tabularSections uuid="c4ab6456-65b2-4cad-bce9-aafb39c1dd47">
     <producedTypes>
       <objectType typeId="cbc48863-4e54-44b8-8cc8-b9d762f2aa88" valueTypeId="05ed8b60-502b-4175-88d8-ebbc643d7d22"/>
@@ -313,18 +278,6 @@
       <key>ru</key>
       <value>Круги</value>
     </synonym>
-    <attributes uuid="bd2c9beb-f422-4538-8f67-e9a92800e0e4">
-      <name>ФИО</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ф.И.О.</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Люди</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="9d67a37f-431e-400a-b8e9-c26cf5294bee">
       <name>Роль</name>
       <synonym>
@@ -345,44 +298,6 @@
       </synonym>
       <type>
         <types>CatalogRef.Организации</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <tabularSections uuid="23a3fc67-6fef-45a0-afff-c32b9514fecc">
-    <producedTypes>
-      <objectType typeId="53ff50ab-e543-4383-85c6-877ddb827582" valueTypeId="2c52f8ae-7c0f-44e2-85c9-9128df806fb1"/>
-      <rowType typeId="478f0eb7-f4fe-4b0e-917c-0f23a12b9b5b" valueTypeId="00b11bf7-439c-49d7-a225-9c458714d31b"/>
-    </producedTypes>
-    <name>Животные</name>
-    <synonym>
-      <key>ru</key>
-      <value>Животные</value>
-    </synonym>
-    <attributes uuid="ee9a7d99-44e9-41ed-858e-99c2b51cd9dd">
-      <name>Вид</name>
-      <synonym>
-        <key>ru</key>
-        <value>Вид</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВидыЖивотных</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="3b017134-42d9-4c1e-abc3-627767038ac5">
-      <name>Кличка</name>
-      <synonym>
-        <key>ru</key>
-        <value>Кличка</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
       </type>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -418,71 +333,6 @@
       </synonym>
       <type>
         <types>CatalogRef.Блюда</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <tabularSections uuid="a1f86f40-0edf-4434-9fd9-3f84a376e579">
-    <producedTypes>
-      <objectType typeId="d58f838e-857d-4b62-aa79-db36636d0c35" valueTypeId="f789e0c1-3efd-4d97-847b-bd1842a913d8"/>
-      <rowType typeId="04b8b246-e541-47fa-9d0f-d990ab5ccf7f" valueTypeId="6c150846-2904-4bfb-81bc-a50939fd6f6d"/>
-    </producedTypes>
-    <name>Подарки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подарки</value>
-    </synonym>
-    <attributes uuid="cb580241-852e-4d3c-aaed-4a297569075a">
-      <name>Дата</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дата</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="a1c69e55-6e6c-4a6f-a182-fe90eb90ecfe">
-      <name>ПодарилИлиПолучил</name>
-      <synonym>
-        <key>ru</key>
-        <value>Подарил или получил</value>
-      </synonym>
-      <type>
-        <types>EnumRef.ПодарилИлиПолучил</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="7dea76e9-93ea-4e6d-b3ea-e24b6c995784">
-      <name>ФИО</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ф.И.О.</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Люди</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="ab618451-402a-4b3c-b998-345bb5c11632">
-      <name>Подарок</name>
-      <synonym>
-        <key>ru</key>
-        <value>Подарок</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
       </type>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>

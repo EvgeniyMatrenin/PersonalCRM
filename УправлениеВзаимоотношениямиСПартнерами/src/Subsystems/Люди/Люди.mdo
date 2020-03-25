@@ -9,5 +9,12 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Люди</content>
   <content>Role.ПолныеПрава</content>
+  <content>Document.Свадьба</content>
+  <content>Document.Развод</content>
+  <content>Document.Рождение</content>
+  <content>Document.Смерть</content>
+  <content>Document.Животное</content>
+  <content>Document.Дружба</content>
+  <content>InformationRegister.Подарки</content>
   <subsystems>НСИ</subsystems>
 </mdclass:Subsystem>
