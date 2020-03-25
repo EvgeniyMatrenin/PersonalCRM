@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b5c6b44-1009-45b3-aff4-90c0d3b5cd1a">
+  <producedTypes>
+    <objectType typeId="56f448b9-e44d-46e1-a328-d1c3559a2266" valueTypeId="7d52cfbc-0278-43d1-b972-ecf854f1e83b"/>
+    <refType typeId="8d47937f-4b73-45b5-8051-eca5caf5380a" valueTypeId="b3f06fb1-41d5-4792-9e3a-bf6df1c1ca20"/>
+    <selectionType typeId="0a850814-4e3d-41c5-b0d9-55e7c7fe01ed" valueTypeId="aafc11c9-c585-46be-98d9-3c0cbad45c6a"/>
+    <listType typeId="10dce176-8d61-419b-b204-b2e798af5e27" valueTypeId="f763e222-658e-4acf-a6ef-cd7fd6fe0ae0"/>
+    <managerType typeId="80c3e727-e11c-4002-b6da-0d5a24992917" valueTypeId="5425a466-e508-4aec-93ce-7b3478a50866"/>
+  </producedTypes>
+  <name>Дружба</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дружба</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Дружба.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5bace6c3-9239-4934-93c7-bd5383e9d1a2">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ф.И.О.</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="10382316-856e-45ba-b5e2-bad8ba118397">
+    <producedTypes>
+      <objectType typeId="0bea6e04-db64-431b-8a45-910db3a1b31e" valueTypeId="c64e71dc-f804-4c42-9782-4572e42bc456"/>
+      <rowType typeId="145c06a6-f912-40b2-a7fb-87f59bbebd7b" valueTypeId="d7ec5370-a8e9-4be8-b556-ba6f5e4c5c60"/>
+    </producedTypes>
+    <name>ПодружилсяС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подружился с</value>
+    </synonym>
+    <attributes uuid="60cc8127-e1d2-4259-91a9-e76c1aa9fba1">
+      <name>ПодружилсяС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подружился (лась) с</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Люди</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

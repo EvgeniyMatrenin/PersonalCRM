@@ -51,6 +51,7 @@
   <documents>Document.Рождение</documents>
   <documents>Document.Смерть</documents>
   <documents>Document.Животное</documents>
+  <documents>Document.Дружба</documents>
   <enums>Enum.ВидыПола</enums>
   <enums>Enum.ПодарилИлиПолучил</enums>
   <enums>Enum.ЛюбитИлиНеЛюбит</enums>
