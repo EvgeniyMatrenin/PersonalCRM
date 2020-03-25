@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe5e3171-5521-46d8-889f-ec78a08aacda">
+  <producedTypes>
+    <refType typeId="4d64c654-2e59-4adc-a334-3d83fda34c3b" valueTypeId="9b541508-3047-4df4-93fd-9bbc3a883256"/>
+    <listType typeId="5a4fc8fc-347f-4561-935d-a39ae75be974" valueTypeId="e155b8f4-5a2f-429c-bd45-fb69cc6be272"/>
+    <managerType typeId="5fc682fe-dd3c-41b5-a485-443dc24ce4b1" valueTypeId="188e98c2-80f4-45bc-9d75-bda3770b97a9"/>
+  </producedTypes>
+  <name>ПоявилосьИлиИсчезло</name>
+  <synonym>
+    <key>ru</key>
+    <value>Появилось или исчезло</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bb067ebb-5272-43cd-9bbb-da20c8d9c548">
+    <name>Появилось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Появилось</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bbe0c07-220c-406f-91b7-0eaf7644a4d3">
+    <name>Исчезло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исчезло</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

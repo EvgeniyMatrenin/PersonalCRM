@@ -50,8 +50,10 @@
   <documents>Document.Развод</documents>
   <documents>Document.Рождение</documents>
   <documents>Document.Смерть</documents>
+  <documents>Document.Животное</documents>
   <enums>Enum.ВидыПола</enums>
   <enums>Enum.ПодарилИлиПолучил</enums>
   <enums>Enum.ЛюбитИлиНеЛюбит</enums>
+  <enums>Enum.ПоявилосьИлиИсчезло</enums>
   <informationRegisters>InformationRegister.СопоставлениеВидовРодства</informationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dbe2344-9d87-4545-b377-b468bfad9ed8">
+  <producedTypes>
+    <objectType typeId="8624b772-f516-4ad1-bf47-1dc179f68edc" valueTypeId="22f4dd3f-ffdc-44e0-9fea-1fdc4226f364"/>
+    <refType typeId="09f43569-f5a6-42a3-bff5-832298d8c6d1" valueTypeId="9fa01135-d331-4897-9374-2193655708f5"/>
+    <selectionType typeId="87e806e6-066a-47c9-868d-ff7932be35b2" valueTypeId="a7132a46-097d-4c63-925b-dad5e84d3ed9"/>
+    <listType typeId="2bab1879-6674-4bd2-9cec-44f31575b4cf" valueTypeId="2b008e0b-80d5-4c6a-b4b9-82bf610cfdcc"/>
+    <managerType typeId="56c7ed78-8e71-47b5-a407-171eb55f5cf8" valueTypeId="82eb3d0d-c5e8-4162-9ded-269e57000739"/>
+  </producedTypes>
+  <name>Животное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Животное</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Животное.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="61070646-b10a-4316-a53f-c7309db78642">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПоявилосьИлиИсчезло</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7a5d227-881c-4c60-bb6a-eff8ebe26606">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЖивотных</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f6e0494-03ba-4f0a-aa1e-0ff938abe83f">
+    <name>Кличка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кличка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="70059ace-1edb-41ad-9fed-77e149b99250">
+    <producedTypes>
+      <objectType typeId="fc131c83-7f8c-40c0-88c0-c814a4a25262" valueTypeId="a64c3d55-6ed6-4cd6-bf65-de46af58f378"/>
+      <rowType typeId="4d030425-fc1c-4183-8d24-7dfcd3b25491" valueTypeId="19ad8499-1713-43cd-9a11-34e3f11844d8"/>
+    </producedTypes>
+    <name>Хозяева</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хозяева</value>
+    </synonym>
+    <attributes uuid="6febd0c8-d084-40ef-a4c9-10be4ff51462">
+      <name>ФИО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ф.И.О.</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Люди</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
