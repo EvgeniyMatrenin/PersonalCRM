@@ -7,6 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>InformationRegister.СопоставлениеВидовРодства</content>
   <parentSubsystem>Subsystem.Люди</parentSubsystem>
 </mdclass:Subsystem>

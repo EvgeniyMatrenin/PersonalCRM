@@ -46,16 +46,14 @@
   <catalogs>Catalog.ВидыПривычекИОсобенностей</catalogs>
   <catalogs>Catalog.СтепениВыраженности</catalogs>
   <catalogs>Catalog.ВидыИмущества</catalogs>
-  <documents>Document.Свадьба</documents>
-  <documents>Document.Развод</documents>
+  <documents>Document.Любовь</documents>
   <documents>Document.Рождение</documents>
-  <documents>Document.Смерть</documents>
   <documents>Document.Животное</documents>
   <documents>Document.Дружба</documents>
   <enums>Enum.ВидыПола</enums>
   <enums>Enum.ПодарилИлиПолучил</enums>
   <enums>Enum.ЛюбитИлиНеЛюбит</enums>
   <enums>Enum.ПоявилосьИлиИсчезло</enums>
-  <informationRegisters>InformationRegister.СопоставлениеВидовРодства</informationRegisters>
+  <enums>Enum.ВидыЛюбовнойСвязи</enums>
   <informationRegisters>InformationRegister.Подарки</informationRegisters>
 </mdclass:Configuration>

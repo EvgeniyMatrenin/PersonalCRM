@@ -7,13 +7,13 @@
     <listType typeId="f60f683e-7969-4a03-99d3-4192e79fa321" valueTypeId="668e1c16-4edb-4cd4-85b8-61a94b25ee11"/>
     <managerType typeId="437c170f-9890-4f2a-8d2b-efc98b2cc24a" valueTypeId="a5cd4488-b439-427b-9deb-40dcf05dd411"/>
   </producedTypes>
-  <name>Свадьба</name>
+  <name>Любовь</name>
   <synonym>
     <key>ru</key>
-    <value>Свадьба</value>
+    <value>Любовь</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Свадьба.StandardAttribute.Number</inputByString>
+  <inputByString>Document.Любовь.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -26,11 +26,23 @@
   <realTimePosting>Deny</realTimePosting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="6c660b89-e7c4-4bbd-83af-cf240dd9826c">
-    <name>Муж</name>
+  <attributes uuid="d6acd6fa-3923-4652-8f47-76ddc4e44221">
+    <name>ВидСвязи</name>
     <synonym>
       <key>ru</key>
-      <value>Муж</value>
+      <value>Вид связи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЛюбовнойСвязи</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c660b89-e7c4-4bbd-83af-cf240dd9826c">
+    <name>Мужчина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мужчина</value>
     </synonym>
     <type>
       <types>CatalogRef.Люди</types>
@@ -39,10 +51,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f3ae5249-64a2-49a3-8f0b-b23f9cb8af3c">
-    <name>Жена</name>
+    <name>Женщина</name>
     <synonym>
       <key>ru</key>
-      <value>Жена</value>
+      <value>Женщина</value>
     </synonym>
     <type>
       <types>CatalogRef.Люди</types>
@@ -60,6 +72,7 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

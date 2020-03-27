@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74fd17ff-a5ac-45cb-a892-a6ea62ed6462">
+  <producedTypes>
+    <refType typeId="08d743eb-34d1-4dda-b2be-ab7a8f41f990" valueTypeId="ce66ab78-9c87-46c8-894c-dce26f98d9da"/>
+    <listType typeId="2cd3fbe4-bda3-4099-8929-7dfe1185dd1f" valueTypeId="2cd217d4-5155-4bf5-8525-3397c7ae7d66"/>
+    <managerType typeId="39aa3101-f73e-43d5-9fc5-216446813552" valueTypeId="ff0c5c05-9ace-4373-8955-2b70b3115549"/>
+  </producedTypes>
+  <name>ВидыЛюбовнойСвязи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды любовной связи</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3a57cefe-d18e-44ab-b612-7875b326bf09">
+    <name>Свадьба</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свадьба</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="131aad03-bd71-410f-9af8-187b6b351346">
+    <name>Развод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Развод</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

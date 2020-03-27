@@ -101,6 +101,33 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f4d9038c-eacd-4142-bec0-bedb8193e270">
+    <name>Умер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Умер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab084019-45c8-4a2b-b9b4-df36c181ecfa">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="b485817c-523c-4a6e-8f07-ba547060bac3">
     <producedTypes>
       <objectType typeId="2747d282-a8aa-425d-a69f-3d1bc6e99990" valueTypeId="8ebe6a05-67e2-44ab-8dc8-3d74a7f8ea04"/>
