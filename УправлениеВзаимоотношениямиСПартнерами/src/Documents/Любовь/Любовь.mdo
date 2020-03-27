@@ -24,20 +24,10 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ЛюбовьДляЖенщины</registerRecords>
+  <registerRecords>InformationRegister.ЛюбовьДляМужчины</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="d6acd6fa-3923-4652-8f47-76ddc4e44221">
-    <name>ВидСвязи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид связи</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ВидыЛюбовнойСвязи</types>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="6c660b89-e7c4-4bbd-83af-cf240dd9826c">
     <name>Мужчина</name>
     <synonym>
@@ -46,6 +36,18 @@
     </synonym>
     <type>
       <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6acd6fa-3923-4652-8f47-76ddc4e44221">
+    <name>ВидСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид связи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЛюбовнойСвязи</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

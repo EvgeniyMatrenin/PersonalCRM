@@ -13,17 +13,17 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="3a57cefe-d18e-44ab-b612-7875b326bf09">
-    <name>Свадьба</name>
+    <name>ПоженилисьС</name>
     <synonym>
       <key>ru</key>
-      <value>Свадьба</value>
+      <value>поженились с</value>
     </synonym>
   </enumValues>
   <enumValues uuid="131aad03-bd71-410f-9af8-187b6b351346">
-    <name>Развод</name>
+    <name>РазвелисьС</name>
     <synonym>
       <key>ru</key>
-      <value>Развод</value>
+      <value>развелись с</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

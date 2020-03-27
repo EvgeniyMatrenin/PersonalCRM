@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f9a2a03-7493-4518-8f28-6360f8076450">
+  <producedTypes>
+    <selectionType typeId="0cfa7a40-edfb-4b96-8354-af3b51bde5ae" valueTypeId="843499b8-98b9-41e0-aa3b-6badb526261b"/>
+    <listType typeId="f725fa8c-9ebc-4474-b95d-4e5d9c08d575" valueTypeId="b9a0a3d0-208f-4dde-b5e9-6547852f3368"/>
+    <managerType typeId="ee2ba3f3-454c-4b81-b205-d7dc8fe8c29a" valueTypeId="83d0668d-2ffd-4fa7-b2b1-1def8da6a582"/>
+    <recordSetType typeId="063119f6-ed77-4617-9ef5-f3121266a46e" valueTypeId="b1a6cbf8-b686-4985-9cce-ec29c0d2375d"/>
+    <recordKeyType typeId="7ad30ea0-ce97-49e1-9085-23743446b38d" valueTypeId="53549d31-9d52-484c-89d4-e40f81667347"/>
+    <recordType typeId="5420088b-96f5-490c-a517-a0c71e8807e1" valueTypeId="85dc3df0-557f-45d1-bcdb-f5c3f79163e4"/>
+    <recordManagerType typeId="8d295c2b-6f35-4a0c-a9e6-6b603884f4ec" valueTypeId="3e713ad7-35bc-4d43-8da9-0c78a96e5e16"/>
+  </producedTypes>
+  <name>ЛюбовьДляМужчины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Любовь для мужчины</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="087b6e55-cdc2-461a-8fc4-cd2713bceb50">
+    <name>ВидСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид связи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЛюбовнойСвязи</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="36aa1e3c-2eab-419e-8d36-677c9c13047b">
+    <name>Женщина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Женщина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="01d296d7-b02f-4916-a8c8-6d4f917e6bab">
+    <name>Мужчина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мужчина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+</mdclass:InformationRegister>
