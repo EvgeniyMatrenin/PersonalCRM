@@ -14,5 +14,6 @@
   <content>Document.Животное</content>
   <content>Document.Дружба</content>
   <content>InformationRegister.Подарки</content>
+  <content>Report.Досье</content>
   <subsystems>НСИ</subsystems>
 </mdclass:Subsystem>

@@ -55,6 +55,7 @@
   <enums>Enum.ЛюбитИлиНеЛюбит</enums>
   <enums>Enum.ПоявилосьИлиИсчезло</enums>
   <enums>Enum.ВидыЛюбовнойСвязи</enums>
+  <reports>Report.Досье</reports>
   <informationRegisters>InformationRegister.Подарки</informationRegisters>
   <informationRegisters>InformationRegister.ЛюбовьДляМужчины</informationRegisters>
   <informationRegisters>InformationRegister.ЛюбовьДляЖенщины</informationRegisters>

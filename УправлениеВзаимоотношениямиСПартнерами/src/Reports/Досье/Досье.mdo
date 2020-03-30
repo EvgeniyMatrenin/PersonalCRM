@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd153220-8455-4bfa-9a91-597f3e48bc2e">
+  <producedTypes>
+    <objectType typeId="e6387c74-054d-4eef-a78c-62a59ebc3fe5" valueTypeId="3f61b487-7ac6-4539-bc6d-3080ab3141ce"/>
+    <managerType typeId="b38f0511-3ec2-493f-a509-c697dd14cc72" valueTypeId="68477807-344c-44da-abe1-1ae001fc6afa"/>
+  </producedTypes>
+  <name>Досье</name>
+  <synonym>
+    <key>ru</key>
+    <value>Досье</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Досье.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f557b14a-c568-457e-a2fe-fe39d5c51f17">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
